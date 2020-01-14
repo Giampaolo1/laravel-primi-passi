@@ -1,0 +1,25 @@
+Requisiti
+Installazione e clonazione laravel. Route, controller e layout.
+Partendo dalla repo base modificare e aggiungere le seguenti parti:
+
+1 Modificare la rotta base dirottandola ad un controller
+2 Creare un controller che ritorni la view movies (precedentemente ritornata direttamente dalla rotta), con una variabile che contiene cd musicali.
+3 Modificare i cd musicali statici, sostituendoli con un ciclo che legga la variabile che arriva dal controller
+4 Creare un layout con html base
+5 Creare un component header incluso nel layout base
+6 Creare il file scss e importare il css con i metodi di Laravel
+
+Per scaricare e installare il progetto da git:
+
+(se usi il terminale)
+- git clone
+- eliminare la cartella .git (attenzione a non eliminare il file .gitingnore !!)
+
+(altrimenti)
+- entrare cartella progetto
+- composer install
+- npm install
+- copiare il file .env.example in .env
+- php artisan key:generate
+- lanciare il server (php artisan serve)
+- lanciare compilazione sass/js (npm run watch)
